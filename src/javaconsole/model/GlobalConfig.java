@@ -17,11 +17,11 @@ public class GlobalConfig {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
 
-    
     public static String getCONNECTION_URL_PREFIX() {
         return CONNECTION_URL_PREFIX;
 
     }
+
     public static String getHOST() {
         return HOST;
     }
@@ -38,5 +38,5 @@ public class GlobalConfig {
     public static String getPASSWORD() {
         return PASSWORD;
     }
-    
+
 }

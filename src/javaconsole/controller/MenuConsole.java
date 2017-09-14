@@ -36,7 +36,6 @@ public class MenuConsole {
             System.out.println("================== Exit ==================");
             System.out.println("Chọn :");
 
-            
             int choice = 0;
             Scanner sc = new Scanner(System.in);
             String strChoice = sc.nextLine();
@@ -75,7 +74,7 @@ public class MenuConsole {
                         break;
                     case 7:
                         System.exit(0);
-                    
+
                 }
             }
         }

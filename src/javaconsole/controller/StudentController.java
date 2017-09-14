@@ -25,7 +25,7 @@ public class StudentController {
 
     public void getList() {
         listStudent = studentModel.getListStudent();
-        if (listStudent == null) {
+        if (listStudent.isEmpty() == true) {
             System.out.println("Danh sách trống");
         } else {
             System.out.println("========== Danh sách sinh viên ==========");
