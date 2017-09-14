@@ -79,24 +79,26 @@ public class StudentController {
         } else {
             System.out.println("Nhập Tên mới: ");
             String name = sc.nextLine();
-            if (name == null) {
-                name = previousStudent.getName();
+            if (name.isEmpty() == true) {
+                System.out.println(name = previousStudent.getName());
+
             }
             System.out.println("Nhập Email mới: ");
             String email = sc.nextLine();
-            if (email == null) {
-                email = previousStudent.getEmail();
+            if (email.isEmpty() == true) {
+                System.out.println(email = previousStudent.getEmail());
+
             }
 
             System.out.println("Nhập Rollnumber mới: ");
             String rollNumber = sc.nextLine();
-            if (rollNumber == null) {
-                rollNumber = previousStudent.getRollnumber();
+            if (rollNumber.isEmpty() == true) {
+                System.out.println(rollNumber = previousStudent.getRollnumber());
             }
             System.out.println("Nhập Classname mới: ");
             String className = sc.nextLine();
-            if (className == null) {
-                className = previousStudent.getClassname();
+            if (className.isEmpty() == true) {
+                System.out.println(className = previousStudent.getClassname());
             }
             System.out.println("Nhập Status mới: ");
             int status = sc.nextInt();
